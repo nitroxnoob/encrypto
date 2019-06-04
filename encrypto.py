@@ -59,7 +59,7 @@ def main():
 			os.system("clear")
 			print(index)
 			string=raw_input("\033[1;33mpaste MD5 Hash > ")
-			website = 'http://md5decryption.com/'
+			website = 'http://md5decryption.org/'
 			weburl = urllib.urlencode({'hash':string,'submit':'Decrypt+It!'})
 			req = urllib2.Request(website)
 			try:
